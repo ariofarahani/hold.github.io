@@ -1,0 +1,37 @@
+/* Global Styles */
+h1, h2, h3{text-align: center}
+body {
+	color: #fff;
+	background: linear-gradient(60deg, rgb(20, 20, 20) 43%, rgb(41, 72, 77) 100%);
+	align-items: center;
+    }
+img {
+	width: 10%; 
+	height: auto;
+	margin: 0 auto;
+	display: block;}
+.button {
+	font-family: Nocturne Serif;
+}
+#buttons{
+	text-align: center;
+}
+.button {
+	padding: 8px 20px;
+	margin: 6px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: #fff;
+	color: #000;
+}
+.button:hover {
+	background:lightslategrey;
+	color: #fff;
+}
+div.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
